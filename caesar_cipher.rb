@@ -7,5 +7,7 @@ def caesar_cipher(string, shift_by)
     else
         new_string[index] = (char+shift_by-26).chr
     end}
-    return new_string.join('')
+    puts new_string.join('')
 end
+
+caesar_cipher("I love Ruby", 5)
